@@ -1,7 +1,7 @@
 const { fs, path } = require('@vuepress/shared-utils')
 
 module.exports = ctx => ({
-  base:'/rookienotes',
+  base:'/rookienotes/',
   dest: '../RookieNotes_dist',
   title: 'RookieNotes',
   description: 'Vue 驱动的静态网站生成器',
